@@ -9,7 +9,7 @@
       bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
       bla bla bla bla bla bla bla
     </p>
-    <button class="btn btn-info">Read </button>
+    <button class="btn btn-info">Read... </button>
   </div>
 </template>
 
