@@ -1,17 +1,15 @@
 <template>
   <div>
     <div class="container">
-      <Hero/>
-  </div>
+      <p>home Page</p>
+      <Hero />
+    </div>
   </div>
 </template>
 
 <script setup>
-definePageMeta({
-
-});
+definePageMeta({});
 //fetch data
-
 </script>
 
 <style></style>
