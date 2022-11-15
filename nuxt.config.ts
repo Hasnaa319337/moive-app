@@ -12,6 +12,17 @@ export default defineNuxtConfig({
     define: {
       'process.env.DEBUG': false,
     },
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@use "@/assets/_colors.scss" as *;'
+        }
+      }
+    }
+  },
+  app: {
+    pageTransition: { name: 'about', mode: 'out-in' },
+    layoutTransition: { name: 'layout', mode: 'out-in' }
   },
 })
 /*
